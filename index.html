@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>booking</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>حجز موعد 🧑‍⚕️</h1>
+      <form action="">
+        <input type="text" id="name" placeholder="  اسم المريض " />
+        <input type="number" id="age" placeholder="  السن  " inputmode />
+        <input type="number" id="phone" placeholder="  رقم الهاتف " />
+        <select name="gender" id="gender" type="radio">
+          <option value="" selected>اختر _ النوع _</option>
+          <option value="ذكر">ذكر</option>
+          <option value="انثى">انثى</option>
+        </select>
+        <label for="date" class="date" >
+          تاريخ الموعد
+          <input type="date" id="date" />
+        </label>
+
+        <input type="submit" id="submit" value=" احجز الموعد" />
+        <input type="reset" id="reset" value=" مسح الكل" />
+        <p id="message"></p>
+      </form>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
