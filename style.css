@@ -67,14 +67,7 @@ input[type="submit"]:hover {
 #reset:hover {
     background: #c0392b;
 }
-#out-put p {
-    font-weight: bold;
-    padding: 8px 12px;
-    margin: 6px 0;
-    border-radius: 8px;
-    transition: 0.3s;
-    font-size: 18px;
-  }
+
   .date{
     background: #086690;
     color: #fff;
